@@ -8,6 +8,7 @@ function CreatePost() {
     const subTitle =useFormInput('');
     const content =useFormInput('');
     
+    // It's stop refreshing the page again and again
     function handleSubmit(e) {
       e.preventDefault();
 
